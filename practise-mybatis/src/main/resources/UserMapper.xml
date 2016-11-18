@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="dao.UserMapper">  
+<select id="selectUser" parameterType="model.User" resultType="model.User">  
+    SELECT * FROM testUser WHERE username=#{username} 
+    <!-- AND password=#{password}   -->
+</select>  
+<insert id="insertUser" parameterType="model.User" flushCache="true">  
+   INSERT INTO testUser (username,password) VALUES (#{username},#{password})  
+</insert>  
+<update id="updateUser" parameterType="model.User">  
+    UPDATE testUser SET password=#{password} WHERE username=#{username}  
+</update>  
+<delete id="deleteUser" parameterType="String">  
+    DELETE FROM testUser WHERE username=#{username}  
+</delete>  
+</mapper>
