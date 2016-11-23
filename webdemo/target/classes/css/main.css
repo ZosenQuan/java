@@ -1,0 +1,103 @@
+body {
+	background-image: url(../image/b4b.jpg);
+	margin: 0px auto;
+}
+
+button {
+	display: block;
+	font-size: 12px;
+	margin: 0px auto;
+	border-width: 0px;
+}
+
+button:hover {
+	color: red;
+}
+
+h2 {
+	margin: 5px auto; text-align : center;
+	font-family: helvetica;
+	text-align: center;
+}
+
+.dv {
+	margin: 0px auto;
+	width: 400px;
+	height: 210px;
+	clear: both;
+}
+
+.fm {
+	margin: 0px auto;
+}
+
+.fm input {
+	display: block;
+	margin: 10px auto;
+	width: 300px;
+	height: 30px;
+	width: 300px;
+	border: none;
+}
+
+.ipt {
+	text-indent: 10px;
+	font-size: 16px;
+	font-family: Tahoma, Helvetica, Arial, 'ËÎÌו', sans-serif;
+}
+
+.bt {
+	background-color: #92B901;
+	text-align: center;
+}
+
+.bt:hover {
+	background-color: #1EC7E6;
+}
+
+#list {
+	width: 310px;
+	height: 208px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#list ul {
+	position: relative;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px;
+	height: 208px;
+	width: 930px;
+	left: 0px;
+	transition: all 1.5s;
+}
+
+#list ul li {
+	display: inline;
+	float: left;
+}
+
+#ajax {
+	width: 300px;
+	height: 100px;
+	margin: 10px auto;
+}
+
+#ajax a {
+	text-decoration: none;
+	color: blue;
+}
+
+#ajax a:hover {
+	color: red;
+}
+
+#error {
+	width: 400px;
+	height: 12px;
+	margin: 0px auto;
+	text-align: center;
+	font-size:12px;
+	color:#FC4343;
+}
